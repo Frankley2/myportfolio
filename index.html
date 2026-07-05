@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ighodaro Godswill Arigbe — Cybersecurity student & aspiring SOC Analyst. Portfolio showcasing TryHackMe labs, certifications, and defensive security projects.">
+  <meta name="keywords" content="cybersecurity, SOC analyst, blue team, TryHackMe, portfolio, incident response, threat detection">
+  <meta name="author" content="Ighodaro Godswill Arigbe">
+  <title>Ighodaro Godswill Arigbe | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+</head>
+<body>
+  <!-- Particle Background -->
+  <canvas id="particles-canvas"></canvas>
+  <div class="scanline-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        &gt; godswill<span class="cursor-blink"></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#tryhackme">tryhackme</a></li>
+        <li><a href="#rooms">rooms</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#certs">certs</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            BLUE TEAM DEFENDER
+          </div>
+          <h1 class="hero-name">
+            <span class="first-name">Ighodaro Godswill</span>
+            <span class="last-name">Arigbe</span>
+          </h1>
+          <p class="hero-title">$ whoami → SOC Analyst Level 1 • Cybersecurity Student</p>
+          <p class="hero-desc">
+            Passionate cybersecurity student focused on defensive security operations. 
+            Building hands-on expertise in threat detection, incident response, SIEM operations, 
+            and network forensics through 75+ real-world labs and certifications.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">⚡ View My Projects</a>
+            <a href="#contact" class="btn-secondary">📡 Get In Touch</a>
+            <a href="#" class="btn-secondary" id="resumeBtn" title="Resume coming soon">📄 Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-card">
+            <div class="profile-pic-wrapper">
+              <div class="status-ring"></div>
+              <div class="profile-pic" id="profilePic">
+                <!-- Replace the placeholder below with: <img src="your-photo.jpg" alt="Godswill"> -->
+                <span class="profile-pic-placeholder">🛡️</span>
+              </div>
+            </div>
+            <h2 class="profile-card-name">igt</h2>
+            <p class="profile-card-tag">[0x8][HACKER] 🇮🇹</p>
+            <p class="profile-card-role">Level 34 • Top 7% • Blue Team</p>
+            <div class="profile-stats">
+              <div class="stat-item">
+                <span class="stat-value count-up" data-target="75">0</span>
+                <span class="stat-label">Rooms Done</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value count-up" data-target="10">0</span>
+                <span class="stat-label">Badges</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value count-up" data-target="26">0</span>
+                <span class="stat-label">Day Streak</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value rank-display">156,128</span>
+                <span class="stat-label">Global Rank</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about">
+      <div class="section-header fade-up">
+        <span class="section-tag">whoami</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Defending networks, one alert at a time.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text fade-up">
+          <p>
+            Cybersecurity isn't just a career path for me — it's a mission. I'm Godswill, 
+            a dedicated cybersecurity student and aspiring SOC Analyst with a deep focus on blue team 
+            operations and defensive security. I spend my days analyzing threats, hunting anomalies, 
+            and building the skills needed to protect organizations from ever-evolving cyber threats.
+          </p>
+          <p>
+            My journey started with curiosity about how systems get compromised and evolved into 
+            a disciplined pursuit of knowledge across threat detection, incident response, SIEM 
+            operations, and network forensics. I believe in learning by doing — which is why I've 
+            completed 75+ hands-on labs on TryHackMe, earned 10 badges, and maintain an active 
+            learning streak while climbing the global ranks.
+          </p>
+          <p>
+            When I'm not in a lab environment, I'm studying for my next certification, writing 
+            detection rules, or exploring the latest threat intelligence reports. My goal is to 
+            contribute to making the digital world safer, one incident at a time.
+          </p>
+        </div>
+
+        <div class="about-highlights fade-up">
+          <div class="highlight-card">
+            <div class="highlight-icon">🎯</div>
+            <div class="highlight-info">
+              <h4>Focus Area</h4>
+              <p>Blue Team & Defensive Security</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">📚</div>
+            <div class="highlight-info">
+              <h4>Current Study</h4>
+              <p>SOC Analyst Level 1</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🏆</div>
+            <div class="highlight-info">
+              <h4>TryHackMe Level</h4>
+              <p>Level 34 • Top 7% Globally</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🔥</div>
+            <div class="highlight-info">
+              <h4>Learning Streak</h4>
+              <p>26 Days Consecutive</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🌍</div>
+            <div class="highlight-info">
+              <h4>Global Rank</h4>
+              <p>#156,128 on TryHackMe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TRYHACKME STATS ==================== -->
+    <section id="tryhackme">
+      <div class="section-header fade-up">
+        <span class="section-tag">tryhackme</span>
+        <h2 class="section-title">TryHackMe Profile</h2>
+        <p class="section-subtitle">Hands-on cybersecurity training — stats from the battlefield.</p>
+      </div>
+
+      <div class="thm-stats-grid stagger-children">
+        <div class="thm-stat-card fade-up">
+          <span class="thm-stat-icon">⭐</span>
+          <span class="thm-stat-number count-up" data-target="34">0</span>
+          <span class="thm-stat-label">Level</span>
+        </div>
+        <div class="thm-stat-card fade-up">
+          <span class="thm-stat-icon">🏠</span>
+          <span class="thm-stat-number count-up" data-target="75">0</span>
+          <span class="thm-stat-label">Rooms Completed</span>
+        </div>
+        <div class="thm-stat-card fade-up">
+          <span class="thm-stat-icon">🏅</span>
+          <span class="thm-stat-number count-up" data-target="10">0</span>
+          <span class="thm-stat-label">Badges Earned</span>
+        </div>
+        <div class="thm-stat-card fade-up">
+          <span class="thm-stat-icon">🔥</span>
+          <span class="thm-stat-number count-up" data-target="26">0</span>
+          <span class="thm-stat-label">Day Streak</span>
+        </div>
+        <div class="thm-stat-card fade-up">
+          <span class="thm-stat-icon">📈</span>
+          <span class="thm-stat-number">Top 7%</span>
+          <span class="thm-stat-label">Global Ranking</span>
+        </div>
+        <div class="thm-stat-card fade-up">
+          <span class="thm-stat-icon">🌐</span>
+          <span class="thm-stat-number rank-display">156,128</span>
+          <span class="thm-stat-label">Global Rank</span>
+        </div>
+      </div>
+
+      <div class="thm-badge-bar fade-up">
+        <div class="thm-badge-text">
+          <span>🛡️</span>
+          <span><strong>igt</strong> [0x8][HACKER] — Active learner continuously leveling up in defensive security, threat hunting, and incident response.</span>
+        </div>
+        <a href="https://tryhackme.com/p/igt" target="_blank" rel="noopener noreferrer" class="thm-profile-link">
+          View Full Profile →
+        </a>
+      </div>
+    </section>
+
+    <!-- ==================== COMPLETED ROOMS ==================== -->
+    <section id="rooms">
+      <div class="section-header fade-up">
+        <span class="section-tag">completed_rooms</span>
+        <h2 class="section-title">75 Rooms Completed</h2>
+        <p class="section-subtitle">Every room conquered on TryHackMe — filtered by category.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="room-filters fade-up" id="roomFilters">
+        <button class="filter-btn active" data-filter="all">All <span class="filter-count">75</span></button>
+        <button class="filter-btn" data-filter="soc">SOC & Blue Team <span class="filter-count">11</span></button>
+        <button class="filter-btn" data-filter="networking">Networking <span class="filter-count">12</span></button>
+        <button class="filter-btn" data-filter="offensive">Offensive Tools <span class="filter-count">16</span></button>
+        <button class="filter-btn" data-filter="linux">Linux <span class="filter-count">5</span></button>
+        <button class="filter-btn" data-filter="windows">Windows <span class="filter-count">8</span></button>
+        <button class="filter-btn" data-filter="web">Web & Code <span class="filter-count">10</span></button>
+        <button class="filter-btn" data-filter="fundamentals">Fundamentals <span class="filter-count">13</span></button>
+      </div>
+
+      <!-- Room Grid -->
+      <div class="rooms-grid stagger-children" id="roomsGrid">
+
+        <!-- ===== SOC & BLUE TEAM ===== -->
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">SOC Fundamentals</h4>
+          <p class="room-desc">Learn about the SOC team and their processes.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Introduction to SIEM</h4>
+          <p class="room-desc">Learn the fundamentals of SIEM and explore its features and functionality.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Incident Response Fundamentals</h4>
+          <p class="room-desc">Learn how to perform Incident Response in cyber security.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Logs Fundamentals</h4>
+          <p class="room-desc">Learn what logs are and how to analyze them for effective investigation.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Digital Forensics Fundamentals</h4>
+          <p class="room-desc">Learn about digital forensics and related processes and experiment with a practical example.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Firewall Fundamentals</h4>
+          <p class="room-desc">Learn about firewalls and get hands-on with Windows and Linux built-in firewalls.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">IDS Fundamentals</h4>
+          <p class="room-desc">Learn the fundamentals of IDS, along with the experience of working with Snort.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Vulnerability Scanner Overview</h4>
+          <p class="room-desc">Learn about vulnerability scanners and how they work in a practical scenario.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">CyberChef: The Basics</h4>
+          <p class="room-desc">An introduction to CyberChef, the Swiss Army knife for cyber security professionals.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Become a Defender</h4>
+          <p class="room-desc">Explore defensive security, cyber infrastructure, and how to protect systems from attacks.</p>
+        </div>
+        <div class="room-card fade-up" data-category="soc">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Defensive Security Intro</h4>
+          <p class="room-desc">Introducing defensive security, where you will protect FakeBank from an ongoing attack.</p>
+        </div>
+
+        <!-- ===== NETWORKING ===== -->
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">What is Networking?</h4>
+          <p class="room-desc">Begin learning the fundamentals of computer networking.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Intro to LAN</h4>
+          <p class="room-desc">Learn about some of the technologies and designs that power private networks.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">OSI Model</h4>
+          <p class="room-desc">Learn about the fundamental networking framework that determines data handling stages.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Packets & Frames</h4>
+          <p class="room-desc">Understand how data is divided into smaller pieces and transmitted across a network.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Extending Your Network</h4>
+          <p class="room-desc">Learn about technologies used to extend networks out onto the Internet.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">DNS in Detail</h4>
+          <p class="room-desc">Learn how DNS works and how it helps you access internet services.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">HTTP in Detail</h4>
+          <p class="room-desc">Learn about how you request content from a web server using the HTTP protocol.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Networking Concepts</h4>
+          <p class="room-desc">Learn about the ISO OSI model and the TCP/IP protocol suite.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Networking Essentials</h4>
+          <p class="room-desc">Explore networking protocols from automatic configuration to routing packets.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Networking Core Protocols</h4>
+          <p class="room-desc">Learn about the core TCP/IP protocols.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Networking Secure Protocols</h4>
+          <p class="room-desc">Learn how TLS, SSH, and VPN can secure your network traffic.</p>
+        </div>
+        <div class="room-card fade-up" data-category="networking">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Active Directory Basics</h4>
+          <p class="room-desc">Introduction to the basic concepts and functionality provided by Active Directory.</p>
+        </div>
+
+        <!-- ===== OFFENSIVE TOOLS ===== -->
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Nmap: The Basics</h4>
+          <p class="room-desc">Learn how to use Nmap to discover live hosts, find open ports, and detect service versions.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Gobuster: The Basics</h4>
+          <p class="room-desc">Introduction to Gobuster, an offensive security tool used for enumeration.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Hydra</h4>
+          <p class="room-desc">Learn about and use Hydra, a fast network logon cracker, to bruteforce credentials.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">John the Ripper: The Basics</h4>
+          <p class="room-desc">Learn how to use John the Ripper, a powerful and adaptable hash-cracking tool.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Metasploit: Introduction</h4>
+          <p class="room-desc">An introduction to the main components of the Metasploit Framework.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Metasploit: Exploitation</h4>
+          <p class="room-desc">Using Metasploit for scanning, vulnerability assessment and exploitation.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Metasploit: Meterpreter</h4>
+          <p class="room-desc">Deep dive into Meterpreter and in-memory payloads for post-exploitation.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Burp Suite: The Basics</h4>
+          <p class="room-desc">An introduction to using Burp Suite for web application pentesting.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">SQLMap: The Basics</h4>
+          <p class="room-desc">Learn about SQL injection and exploit this vulnerability through SQLMap.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Blue</h4>
+          <p class="room-desc">Deploy & hack into a Windows machine, leveraging common misconfigurations.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Moniker Link (CVE-2024-21413)</h4>
+          <p class="room-desc">Leak user's credentials using CVE-2024-21413 to bypass Outlook's Protected View.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Shells Overview</h4>
+          <p class="room-desc">Learn about the different types of shells.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Become a Hacker</h4>
+          <p class="room-desc">Explore offensive security, the hacker mindset, and hack a web app to improve security!</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Offensive Security Intro</h4>
+          <p class="room-desc">Hack your first website (legally in a safe environment) and experience an ethical hacker's job.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Wireshark: The Basics</h4>
+          <p class="room-desc">Learn the basics of Wireshark and how to analyse protocols and PCAPs.</p>
+        </div>
+        <div class="room-card fade-up" data-category="offensive">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Tcpdump: The Basics</h4>
+          <p class="room-desc">Learn how to use Tcpdump to save, filter, and display packets.</p>
+        </div>
+
+        <!-- ===== LINUX ===== -->
+        <div class="room-card fade-up" data-category="linux">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Linux Fundamentals Part 1</h4>
+          <p class="room-desc">Embark on the journey of learning the fundamentals of Linux. Run essential commands on an interactive terminal.</p>
+        </div>
+        <div class="room-card fade-up" data-category="linux">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Linux Fundamentals Part 2</h4>
+          <p class="room-desc">Learn how to log in using SSH, advance your commands, and file system interaction.</p>
+        </div>
+        <div class="room-card fade-up" data-category="linux">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Linux Fundamentals Part 3</h4>
+          <p class="room-desc">Power-up your Linux skills with common utilities you'll use day-to-day!</p>
+        </div>
+        <div class="room-card fade-up" data-category="linux">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Linux CLI Basics</h4>
+          <p class="room-desc">Get comfortable navigating through the Linux CLI.</p>
+        </div>
+        <div class="room-card fade-up" data-category="linux">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Linux Shells</h4>
+          <p class="room-desc">Learn about scripting and the different types of Linux shells.</p>
+        </div>
+
+        <!-- ===== WINDOWS ===== -->
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Windows Basics</h4>
+          <p class="room-desc">Learn to navigate Windows, manage files, and use essential system tools.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Windows Fundamentals 1</h4>
+          <p class="room-desc">Learn about the Windows desktop, NTFS file system, UAC, the Control Panel, and more.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Windows Fundamentals 2</h4>
+          <p class="room-desc">Discover System Configuration, UAC Settings, Resource Monitoring, Windows Registry and more.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Windows Fundamentals 3</h4>
+          <p class="room-desc">Learn about built-in tools: Windows Updates, Windows Security, BitLocker, and more.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Windows Command Line</h4>
+          <p class="room-desc">Learn the essential Windows commands.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Windows CLI Basics</h4>
+          <p class="room-desc">Explore Windows CLI: how to navigate and interact with the system using Windows CLI.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Windows PowerShell</h4>
+          <p class="room-desc">Discover the "Power" in PowerShell and learn the basics.</p>
+        </div>
+        <div class="room-card fade-up" data-category="windows">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Operating System Security</h4>
+          <p class="room-desc">Introduction to operating system security, demonstrating SSH authentication on Linux.</p>
+        </div>
+
+        <!-- ===== WEB & CODE ===== -->
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">How Websites Work</h4>
+          <p class="room-desc">To exploit a website, you first need to know how they are created.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Putting it all together</h4>
+          <p class="room-desc">Learn how all the individual web components work together to bring you access to your favourite sites.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Web Application Basics</h4>
+          <p class="room-desc">Learn the basics of web applications: HTTP, URLs, request methods, response codes.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">JavaScript Essentials</h4>
+          <p class="room-desc">Learn how to use JavaScript to add interactivity and understand associated vulnerabilities.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty medium">medium</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">JavaScript: Simple Demo</h4>
+          <p class="room-desc">Explore what a basic JavaScript program looks like.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Python: Simple Demo</h4>
+          <p class="room-desc">Explore what a basic Python program looks like.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Database SQL Basics</h4>
+          <p class="room-desc">Learn the basics of databases and SQL by writing simple queries.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">SQL Fundamentals</h4>
+          <p class="room-desc">Learn how to perform basic SQL queries to retrieve and manage data.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Search Skills</h4>
+          <p class="room-desc">Learn to efficiently search the Internet and use specialised services for information.</p>
+        </div>
+        <div class="room-card fade-up" data-category="web">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Cloud Computing Fundamentals</h4>
+          <p class="room-desc">Discover how cloud computing helps businesses move faster, do more, and scale with less effort.</p>
+        </div>
+
+        <!-- ===== FUNDAMENTALS ===== -->
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty info">info</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Careers in Cyber</h4>
+          <p class="room-desc">Learn about the different careers in cyber security.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">The CIA Triad</h4>
+          <p class="room-desc">Understand the CIA Triad and how it shapes cyber security mindset.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Cryptography Concepts</h4>
+          <p class="room-desc">Understanding cryptography in our everyday digital encounters.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Cryptography Basics</h4>
+          <p class="room-desc">Learn the basics of cryptography and symmetric encryption.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Public Key Cryptography Basics</h4>
+          <p class="room-desc">Discover how public key ciphers like RSA work and their role in SSH.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Hashing Basics</h4>
+          <p class="room-desc">Learn about hashing functions and uses in password verification and file integrity checking.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Virtualisation Basics</h4>
+          <p class="room-desc">Learn why virtualisation powers modern IT, improving efficiency and isolating environments.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access premium">Premium</span>
+          </div>
+          <h4 class="room-name">Client-Server Basics</h4>
+          <p class="room-desc">This room teaches the basics of the Client-Server model.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Inside a Computer System</h4>
+          <p class="room-desc">This room covers the basic components of a computer system.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Computer Types</h4>
+          <p class="room-desc">Explore the different types of computers, from laptops to the tiny chips inside your coffee machine.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Operating Systems: Introduction</h4>
+          <p class="room-desc">Explore the basics of operating systems and the core features that power your computer.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Data Representation</h4>
+          <p class="room-desc">Learn about how computers represent numbers and colors.</p>
+        </div>
+        <div class="room-card fade-up" data-category="fundamentals">
+          <div class="room-header">
+            <span class="room-difficulty easy">easy</span>
+            <span class="room-access free">Free</span>
+          </div>
+          <h4 class="room-name">Data Encoding</h4>
+          <p class="room-desc">Learn how computer encodes characters, from ASCII to Unicode's UTF.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section id="skills">
+      <div class="section-header fade-up">
+        <span class="section-tag">arsenal</span>
+        <h2 class="section-title">Skills & Tools</h2>
+        <p class="section-subtitle">Defensive capabilities in my cybersecurity toolkit.</p>
+      </div>
+
+      <div class="skills-grid stagger-children">
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🔍</div>
+          <h3 class="skill-name">Threat Detection</h3>
+          <p class="skill-desc">Identifying and analyzing suspicious activity, IOCs, and attack patterns across network and endpoint telemetry.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">SIEM</span>
+            <span class="skill-tag">IDS/IPS</span>
+            <span class="skill-tag">Log Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🚨</div>
+          <h3 class="skill-name">Incident Response</h3>
+          <p class="skill-desc">Structured approach to handling security incidents — from detection and containment to eradication and recovery.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Triage</span>
+            <span class="skill-tag">Containment</span>
+            <span class="skill-tag">Forensics</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon">📊</div>
+          <h3 class="skill-name">SIEM Operations</h3>
+          <p class="skill-desc">Building dashboards, writing detection rules, and managing alerts in Splunk and other SIEM platforms.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Splunk</span>
+            <span class="skill-tag">Wazuh</span>
+            <span class="skill-tag">ELK Stack</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🌐</div>
+          <h3 class="skill-name">Network Analysis</h3>
+          <p class="skill-desc">Capturing and analyzing network traffic to detect anomalies, malware communication, and data exfiltration.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Wireshark</span>
+            <span class="skill-tag">tcpdump</span>
+            <span class="skill-tag">PCAP</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🐧</div>
+          <h3 class="skill-name">Linux & Scripting</h3>
+          <p class="skill-desc">Comfortable in Linux environments with bash scripting for automation of security tasks and log processing.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Bash</span>
+            <span class="skill-tag">Linux CLI</span>
+            <span class="skill-tag">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🛡️</div>
+          <h3 class="skill-name">Vulnerability Assessment</h3>
+          <p class="skill-desc">Scanning and assessing systems for vulnerabilities using industry-standard tools and methodologies.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Nmap</span>
+            <span class="skill-tag">OpenVAS</span>
+            <span class="skill-tag">Nessus</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects">
+      <div class="section-header fade-up">
+        <span class="section-tag">projects</span>
+        <h2 class="section-title">Applied Projects</h2>
+        <p class="section-subtitle">Real skills demonstrated through hands-on lab work on TryHackMe.</p>
+      </div>
+
+      <div class="labs-grid stagger-children">
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🔵 SOC Operations</span>
+            <span class="lab-difficulty">7 Rooms Completed</span>
+          </div>
+          <h3 class="lab-title">SOC Analyst Simulation & SIEM Deployment</h3>
+          <p class="lab-desc">Completed end-to-end SOC analyst workflow: set up SIEM log ingestion, configured alert rules for brute-force and privilege escalation, performed triage and escalation, and documented incidents following industry-standard playbooks. Covered SOC Fundamentals, Introduction to SIEM, Incident Response Fundamentals, and Logs Fundamentals on TryHackMe.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">SIEM</span>
+            <span class="lab-tool">Log Analysis</span>
+            <span class="lab-tool">Triage</span>
+            <span class="lab-tool">Alert Rules</span>
+            <span class="lab-tool">Incident Documentation</span>
+          </div>
+        </div>
+
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🔵 Network Defense</span>
+            <span class="lab-difficulty">12 Rooms Completed</span>
+          </div>
+          <h3 class="lab-title">Network Traffic Analysis & Protocol Deep Dive</h3>
+          <p class="lab-desc">Analyzed network traffic using Wireshark and tcpdump to identify suspicious connections, DNS anomalies, and potential C2 communication. Studied OSI model, TCP/IP protocols, secure protocols (TLS/SSH/VPN), and Active Directory to build a comprehensive understanding of enterprise network architecture.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">Wireshark</span>
+            <span class="lab-tool">tcpdump</span>
+            <span class="lab-tool">DNS</span>
+            <span class="lab-tool">TCP/IP</span>
+            <span class="lab-tool">Active Directory</span>
+          </div>
+        </div>
+
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🔵 Digital Forensics</span>
+            <span class="lab-difficulty">4 Rooms Completed</span>
+          </div>
+          <h3 class="lab-title">Defensive Security & Digital Forensics Investigation</h3>
+          <p class="lab-desc">Performed digital forensics investigations including evidence collection, chain of custody, and analysis. Configured firewalls on both Windows and Linux, deployed and tuned IDS rules with Snort, and conducted vulnerability scanning to identify and prioritize remediation.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">Digital Forensics</span>
+            <span class="lab-tool">Snort IDS</span>
+            <span class="lab-tool">Firewall Config</span>
+            <span class="lab-tool">Vulnerability Scanning</span>
+          </div>
+        </div>
+
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🔴 Offensive Security</span>
+            <span class="lab-difficulty">16 Rooms Completed</span>
+          </div>
+          <h3 class="lab-title">Penetration Testing & Exploitation Lab</h3>
+          <p class="lab-desc">Gained offensive perspective to strengthen defensive skills: conducted network reconnaissance with Nmap, web directory enumeration with Gobuster, credential attacks with Hydra and John the Ripper, exploitation with Metasploit/Meterpreter, web app testing with Burp Suite, and SQL injection with SQLMap. Exploited CVE-2024-21413 (Moniker Link) in Outlook.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">Nmap</span>
+            <span class="lab-tool">Metasploit</span>
+            <span class="lab-tool">Burp Suite</span>
+            <span class="lab-tool">Hydra</span>
+            <span class="lab-tool">SQLMap</span>
+            <span class="lab-tool">CVE Research</span>
+          </div>
+        </div>
+
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🐧 System Administration</span>
+            <span class="lab-difficulty">13 Rooms Completed</span>
+          </div>
+          <h3 class="lab-title">Linux & Windows System Hardening</h3>
+          <p class="lab-desc">Built proficiency across both Linux and Windows environments: mastered CLI operations, shell scripting, PowerShell automation, OS security hardening, NTFS permissions, UAC configuration, BitLocker, and Windows Security tools. Completed Linux Fundamentals 1-3, Windows Fundamentals 1-3, and PowerShell labs.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">Linux CLI</span>
+            <span class="lab-tool">Bash</span>
+            <span class="lab-tool">PowerShell</span>
+            <span class="lab-tool">Windows Security</span>
+            <span class="lab-tool">OS Hardening</span>
+          </div>
+        </div>
+
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🔐 Cryptography</span>
+            <span class="lab-difficulty">6 Rooms Completed</span>
+          </div>
+          <h3 class="lab-title">Cryptography & Data Protection Fundamentals</h3>
+          <p class="lab-desc">Studied symmetric and asymmetric encryption, RSA and public key infrastructure, hashing algorithms for password verification and file integrity, data encoding (ASCII to Unicode), and applied CyberChef for encoding/decoding operations in security investigations.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">CyberChef</span>
+            <span class="lab-tool">RSA</span>
+            <span class="lab-tool">Hashing</span>
+            <span class="lab-tool">PKI</span>
+            <span class="lab-tool">Encoding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOMELAB ==================== -->
+    <section id="homelab">
+      <div class="section-header fade-up">
+        <span class="section-tag">infrastructure</span>
+        <h2 class="section-title">Homelab & Environment</h2>
+        <p class="section-subtitle">Personal virtualized environments built for hands-on security testing.</p>
+      </div>
+
+      <div class="labs-grid stagger-children">
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🖥️ Virtualization</span>
+            <span class="lab-difficulty">In Progress</span>
+          </div>
+          <h3 class="lab-title">Active Directory Attack & Defense Lab</h3>
+          <p class="lab-desc">Building a local virtualized Active Directory environment using VirtualBox. Includes a Windows Server Domain Controller and Windows 10 endpoints. Purpose: to practice Kerberoasting, LLMNR poisoning, and configure Group Policy Objects (GPOs) for hardening.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">VirtualBox</span>
+            <span class="lab-tool">Windows Server</span>
+            <span class="lab-tool">Active Directory</span>
+            <span class="lab-tool">GPO</span>
+          </div>
+        </div>
+
+        <div class="lab-card fade-up">
+          <div class="lab-card-header">
+            <span class="lab-category">🛡️ Detection Engineering</span>
+            <span class="lab-difficulty">Planned</span>
+          </div>
+          <h3 class="lab-title">Local SIEM & Log Forwarding</h3>
+          <p class="lab-desc">Planned project to deploy Splunk or Wazuh locally to ingest Sysmon logs from Windows VMs. Focus will be on writing custom detection rules for common post-exploitation frameworks and generating alerts for suspicious PowerShell activity.</p>
+          <div class="lab-tools">
+            <span class="lab-tool">Splunk/Wazuh</span>
+            <span class="lab-tool">Sysmon</span>
+            <span class="lab-tool">Log Forwarding</span>
+            <span class="lab-tool">Detection Rules</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WRITEUPS ==================== -->
+    <section id="writeups">
+      <div class="section-header fade-up">
+        <span class="section-tag">documentation</span>
+        <h2 class="section-title">Writeups & Incident Reports</h2>
+        <p class="section-subtitle">Documenting methodologies, attack vectors, and defensive strategies.</p>
+      </div>
+
+      <div class="roadmap-grid stagger-children">
+        <div class="roadmap-card fade-up">
+          <div class="roadmap-status">📝 Coming Soon</div>
+          <h4 class="roadmap-title">Investigating Log4j Vulnerability</h4>
+          <p class="roadmap-issuer">TryHackMe Room Writeup</p>
+          <p class="roadmap-desc">A detailed walkthrough of exploiting and patching CVE-2021-44228. Will cover log analysis to detect exploitation attempts and remediation steps.</p>
+        </div>
+        
+        <div class="roadmap-card fade-up">
+          <div class="roadmap-status">📝 Coming Soon</div>
+          <h4 class="roadmap-title">Phishing Analysis & Email Headers</h4>
+          <p class="roadmap-issuer">Incident Report Simulation</p>
+          <p class="roadmap-desc">Analyzing malicious email headers, extracting IOCs (Indicators of Compromise), and detonating malicious attachments safely in a sandbox.</p>
+        </div>
+
+        <div class="roadmap-card fade-up">
+          <div class="roadmap-status">📝 Coming Soon</div>
+          <h4 class="roadmap-title">SIEM Alert Triage Workflow</h4>
+          <p class="roadmap-issuer">Process Documentation</p>
+          <p class="roadmap-desc">Step-by-step documentation of how to triage a brute-force alert, verify false positives, and escalate a true positive event.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS & ROADMAP ==================== -->
+    <section id="certs">
+      <div class="section-header fade-up">
+        <span class="section-tag">credentials</span>
+        <h2 class="section-title">Certifications & Roadmap</h2>
+        <p class="section-subtitle">Earned credentials and what's next on the journey.</p>
+      </div>
+
+      <!-- Earned Certifications -->
+      <h3 class="subsection-title fade-up">✅ Earned</h3>
+      <div class="certs-grid stagger-children" style="margin-bottom: 3rem;">
+        <div class="cert-card featured fade-up">
+          <div class="cert-badge">🏆</div>
+          <h3 class="cert-title">TryHackMe Certificate</h3>
+          <p class="cert-issuer">TryHackMe</p>
+          <p class="cert-desc">Completion certificate demonstrating hands-on cybersecurity skills across defensive security, threat analysis, and SOC operations. 75 rooms completed, Top 7% globally.</p>
+          <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XMP0KUNHX2.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+        </div>
+      </div>
+
+      <!-- Certification Roadmap -->
+      <h3 class="subsection-title fade-up">🎯 Currently Pursuing</h3>
+      <div class="roadmap-grid stagger-children">
+        <div class="roadmap-card fade-up">
+          <div class="roadmap-status">📖 Studying</div>
+          <h4 class="roadmap-title">CompTIA Security+</h4>
+          <p class="roadmap-issuer">CompTIA</p>
+          <p class="roadmap-desc">Network security, threats & vulnerabilities, access control, identity management, and cryptography.</p>
+        </div>
+        <div class="roadmap-card fade-up">
+          <div class="roadmap-status">🎯 Planned</div>
+          <h4 class="roadmap-title">eJPT — Junior Penetration Tester</h4>
+          <p class="roadmap-issuer">INE / eLearnSecurity</p>
+          <p class="roadmap-desc">Practical penetration testing: network scanning, enumeration, exploitation, and reporting.</p>
+        </div>
+        <div class="roadmap-card fade-up">
+          <div class="roadmap-status">🎯 Planned</div>
+          <h4 class="roadmap-title">Blue Team Level 1 (BTL1)</h4>
+          <p class="roadmap-issuer">Security Blue Team</p>
+          <p class="roadmap-desc">Practical blue team operations: phishing analysis, digital forensics, SIEM, and incident response.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact">
+      <div class="section-header fade-up">
+        <span class="section-tag">connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's connect and discuss cybersecurity.</p>
+      </div>
+
+      <div class="contact-grid stagger-children">
+        <a href="mailto:arigbegodswill129@gmail.com" class="contact-card fade-up" id="contact-email">
+          <span class="contact-icon">📧</span>
+          <h3 class="contact-label">Email</h3>
+          <p class="contact-value">arigbegodswill129@gmail.com</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/arigbe-godswill-a0ba31245/" target="_blank" rel="noopener noreferrer" class="contact-card fade-up" id="contact-linkedin">
+          <span class="contact-icon">💼</span>
+          <h3 class="contact-label">LinkedIn</h3>
+          <p class="contact-value">Arigbe Godswill</p>
+        </a>
+
+        <a href="https://tryhackme.com/p/igt" target="_blank" rel="noopener noreferrer" class="contact-card fade-up" id="contact-thm">
+          <span class="contact-icon">🎯</span>
+          <h3 class="contact-label">TryHackMe</h3>
+          <p class="contact-value">tryhackme.com/p/igt</p>
+        </a>
+
+        <a href="#" class="contact-card fade-up" id="contact-github">
+          <span class="contact-icon">🐙</span>
+          <h3 class="contact-label">GitHub</h3>
+          <p class="contact-value">Coming Soon</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text">
+      <span class="highlight">&gt;</span> Built by <span class="highlight">Ighodaro Godswill Arigbe</span> — Blue Team Defender
+      <span class="highlight"> | </span> © 2025
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
